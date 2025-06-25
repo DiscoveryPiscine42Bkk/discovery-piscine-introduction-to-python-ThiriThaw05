@@ -6,7 +6,7 @@ def enlarge(text):
     print(text + "Z"*(8-len(text)))
 def main():
     args = sys.argv[1:]
-    if (len(args)-1) < 1:
+    if (len(args)) < 1:
         print("none")
     else:
         for arg in args:
